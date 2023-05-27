@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Signika', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.login_back{
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+.main_main_container{
+  display: flex;align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  
+  z-index: 100;
+ 
+}
+
+.main_login_container{
+
+
+  width: 70vw;
+  height: 700px;
+  display: flex;
+  
+  box-shadow: 0px 10px 30px 0px rgb(0, 17, 74);
+
+
+}
+.socail_container{
+  display: flex;
+  gap: 30px;
+}
+.socail_container img{
+  width: 50px;
+  height: 50px;
+}
+.socail_container img:hover{
+  cursor: pointer;
+}
+
+
+.login_form{
+  background-color: rgb(255, 255, 255);
+  flex: 2 0.6 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.signup_image{
+  /* background-image: url("/LoginBack.jpg");
+ 
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; */
+  background-image: linear-gradient(rgb(33, 110, 255), rgb(0, 24, 69));
+  width: 100%;
+  opacity: 1;
+}
+.login_inputs{
+  font-size: 1.3vw;
+  border: none;
+  background-color: rgb(233, 245, 255);
+  width: 55%;
+  height: 60px;
+  border-radius: 30px;
+  padding: 20px;
+}
+.login_title{
+  font-size: 2.8vw;
+  font-family: 'Signika', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  word-spacing: 15px;
+}
+h5 {
+  width: 58%; 
+  text-align: center; 
+  border-bottom: 1px solid rgb(187, 187, 187); 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
+
+h5 span { 
+  color: rgb(179, 179, 179); 
+   background:#fff; 
+   padding:0 10px; 
+}
+.login_submit{
+  background-color: rgb(33, 110, 255);
+  height: 60px;
+  width: 25%;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.3vw;
+  margin-top: 30px;
+  color: white;
+}
+.login_submit:hover{
+  background-color:  rgb(0, 67, 191);
+  cursor: pointer;
+  
+}
+.login_social_title{
+  font-size: 1.3vw;
+  font-weight: 200;
+  color: rgb(103, 103, 103);
+}
+
+.signup_image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 50px;
+
+  height: 100%;
+
+}
+.signup_image p{
+  
+  color: rgb(188, 211, 255);
+  font-size: 1.3vw;
+  font-weight: 100;
+  margin-bottom: 30px;
+  
+  word-spacing: 2px;
+
+}
+.signup_image h1{
+  margin-bottom: 30px;
+  color: white;
+  font-size: 3.1vw;
+
+}
+.div_signup{
+  display: flex;
+  height: 100%;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+.signup_btn{
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  width: 50%;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 0px 40px 0px rgb(0, 27, 91);
+
+  font-size: 1.3vw;
+}
+.signup_btn:hover{
+  background-color: rgb(227, 235, 255);
+  cursor: pointer;
+}
+.cross_btn{
+  position: relative;
+  
+  left: calc(100% - 10%);
+  background-image: url("../utils/Images/cross.png");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+}
+.cross_btn:hover{
+  cursor: pointer;
+}
+
+.cross_btn_div{
+  padding-top: 20px;
+  width: 100%;
+  padding-right: 10px;
+
+}

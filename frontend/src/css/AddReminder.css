@@ -1,0 +1,134 @@
+:root{
+  
+    --dark-blue : #02204c;
+    --medium-blue : #03386d;
+    --light-blue: #045c97;
+    --ligher-blue: #6497b1;
+    --lightes-blue:#b4cee2 ;
+
+
+    --lighest-grey: #eeeeee;
+    --lighter-grey: #aeaeae;	
+    --light-grey: #909090;	
+    --medium-grey: #535353;	
+    --dark-grey: #414141;	
+
+    --main-light-grey: rgb(51, 51, 51);
+    --main-medium-grey: rgb(46, 46, 46);
+    --main-dark-grey: rgb(39, 39, 39);
+    --main-shadow:rgb(16, 16, 16);
+    --main-light-shadow:rgb(41, 41, 41);
+    
+
+}
+
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.add_reminder_container{
+
+    position: absolute; 
+  left: 0;
+  top: 150px; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 700px;
+   
+    
+    z-index: 200;
+    
+}
+
+
+.add_reminder_wrapper{
+    height: auto;
+    width: 700px;
+    min-height: auto;
+    min-width:  auto;
+    background-color:white;
+    box-shadow: 0px 0px 10px 4px var(--main-shadow);
+    display: flex;
+    flex-direction: row;
+}
+
+.add_reminder_form{
+    padding: 10px;
+    color: rgb(171, 171, 171);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.add_reminder_form h1{
+    font-size: 3vw;
+    margin: 10px;
+}
+.add_reminder_form_wrapper{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.add_reminder_form_wrapper button{
+    padding: 10px;
+    width: 200px;
+    font-size: 1.4vw;
+    background-color: #188ddb;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.add_reminder_form_wrapper button:hover{
+   
+    background-color: #59bdff;
+    
+}
+.add_reminder_form_wrapper label{
+    padding: 40px;
+    padding-left: 0%;
+    font-size: 1.4vw;
+    padding-bottom: 10px;
+}
+
+.add_reminder_form_wrapper select{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1vw;
+    background-color: var(--lighest-grey);
+    border: none;
+   
+}
+.add_reminder_form_wrapper select option{
+    padding: 10px;
+    
+    font-size: 1.1vw;
+    background-color: var(--lighest-grey);
+    border: none;
+   
+}
+
+.add_reminder_form_wrapper input {
+    background-color: var(--lighest-grey);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.3vw;
+    border: none;
+    
+}
+.add_reminder_btn_div{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+}
